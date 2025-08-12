@@ -31,7 +31,7 @@ class Fruit {
         }else{
         newFruit.id = fruits.length + 1
         fruits.push(newFruit)
-        return Fruit(newFruit)
+        return new Fruit(newFruit)
         }
     }
 
